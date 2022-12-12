@@ -1,0 +1,20 @@
+{
+  "name": "wheelmax",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bower-json": "^0.8.4",
+    "file-saver": "^2.0.5"
+  },
+  "devDependencies": {
+    "@types/file-saver": "^2.0.5"
+  }
+}

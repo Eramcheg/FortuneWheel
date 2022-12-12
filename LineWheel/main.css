@@ -1,0 +1,172 @@
+/*!**{*!*/
+/*!*    box-sizing:border-box;*!*/
+/*!*}*!*/
+
+h1{
+    left: 40%;
+    top:40%;
+}
+
+                                                       /* CSS */
+                                                   .button-71 {
+                                                       background-color: #0078d0;
+                                                       border: 0;
+                                                       border-radius: 56px;
+                                                       color: #fff;
+                                                       cursor: pointer;
+                                                       display: inline-block;
+                                                       font-family: system-ui,-apple-system,system-ui,"Segoe UI",Roboto,Ubuntu,"Helvetica Neue",sans-serif;
+                                                       font-size: 18px;
+                                                       font-weight: 600;
+                                                       outline: 0;
+                                                       left: 45%;
+                                                       top:50%;
+                                                       padding: 16px 21px;
+                                                       position: relative;
+                                                       text-align: center;
+                                                       text-decoration: none;
+                                                       transition: all .3s;
+                                                       user-select: none;
+                                                       -webkit-user-select: none;
+                                                       touch-action: manipulation;
+                                                   }
+
+.button-71:before {
+    background-color: initial;
+    background-image: linear-gradient(#fff 0, rgba(255, 255, 255, 0) 100%);
+    border-radius: 125px;
+    content: "";
+    height: 50%;
+    left: 4%;
+    opacity: .5;
+    position: absolute;
+    top: 0;
+    transition: all .3s;
+    width: 92%;
+}
+
+.button-71:hover {
+    box-shadow: rgba(255, 255, 255, .2) 0 3px 15px inset, rgba(0, 0, 0, .1) 0 3px 5px, rgba(0, 0, 0, .1) 0 10px 13px;
+    transform: scale(1.05);
+}
+
+@media (min-width: 768px) {
+    .button-71 {
+        padding: 16px 48px;
+    }
+
+}
+body{
+    margin:0;
+    padding:0;
+    background-color: #9ed3e7;
+    height:100vh;
+    overflow:hidden;
+}* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+* {
+    box-sizing: border-box;
+}
+
+#cardList {
+    left: 10px;
+    height: 200px;
+    width: 1500px;
+    position: relative;
+    border: 2px solid black;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.card {
+    display: inline-block;
+    background-color: red;
+    text-align: center;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    width: 200px;
+    height: 200px;
+}
+
+.card > img {
+    width: 200px;
+    height: 200px;
+}
+
+.arrow-down {
+    margin-left: 792px;
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+
+    border-top: 20px solid #f00;
+}
+#dialog-msg > img {
+    width: 150px;
+    height: 150px;
+}
+#dialog-msg {
+    text-align: center;
+}
+
+/*.common {*/
+/*    background-color: green;*/
+/*    width: 200px;*/
+/*    height: 200px;*/
+/*}*/
+/*.rare {*/
+/*    background-color: lightblue;*/
+/*    width: 100px;*/
+/*    height: 200px;*/
+/*}*/
+/*.mythical {*/
+/*    background-color: yellow;*/
+/*    width: 50px;*/
+/*    height: 200px;*/
+/*}*/
+/*.legendary {*/
+/*    background-color: orange;*/
+/*    width: 10px;*/
+/*    height: 200px;*/
+/*}*/
+/*!** {*!*/
+/*!*    box-sizing: border-box;*!*/
+/*!*}*!*/
+
+/*!*.arrow{*!*/
+/*!*    position: absolute;*!*/
+/*!*    top:0;*!*/
+/*!*    left:50%;*!*/
+/*!*    transform: translateX(-50%);*!*/
+/*!*    color:#fff;*!*/
+/*!*}*!*/
+
+/*!*.arrow::before{*!*/
+/*!*    content:"\1F817";*!*/
+/*!*    font-size:50px;*!*/
+/*!*}*!*/
+
+/*!*#spin{*!*/
+/*!*    position: absolute;*!*/
+/*!*    top:50%;*!*/
+/*!*    left:50%;*!*/
+/*!*    transform:translate(-50%,-50%);*!*/
+/*!*    z-index:10;*!*/
+/*!*    background-color: #e2e2e2;*!*/
+/*!*    text-transform: uppercase;*!*/
+/*!*    border:8px solid #fff;*!*/
+/*!*    font-weight:bold;*!*/
+/*!*    font-size:20px;*!*/
+/*!*    color:#a2a2a2;*!*/
+/*!*    width: 80px;*!*/
+/*!*    height:80px;*!*/
+/*!*    font-family: sans-serif;*!*/
+/*!*    border-radius:50%;*!*/
+/*!*    cursor: pointer;*!*/
+/*!*    outline:none;*!*/
+/*!*    letter-spacing: 1px;*!*/
+/*!*}*!*/
