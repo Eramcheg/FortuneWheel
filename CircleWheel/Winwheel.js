@@ -88,16 +88,18 @@ function Winwheel(options, drawWheel)
     // If the id of the canvas is set, try to get the canvas as we need it for drawing.
     if (this.canvasId) {
         this.canvas = document.getElementById(this.canvasId);
+        this.canvas.width=600
+        this.canvas.height=602
 
         if (this.canvas) {
             // If the centerX and centerY have not been specified in the options then default to center of the canvas
             // and make the outerRadius half of the canvas width - this means the wheel will fill the canvas.
             if (this.centerX == null) {
-                this.centerX = this.canvas.width / 2 -4;
+                this.centerX = this.canvas.width / 2 ;
             }
 
             if (this.centerY == null) {
-                this.centerY = this.canvas.height / 2;
+                this.centerY = this.canvas.height / 2 -20;
             }
 
             if (this.outerRadius == null) {
@@ -560,7 +562,7 @@ Winwheel.prototype.drawSegmentImages = function()
                         imageLeft = centerX;
 
                         // Top is so that it sits half/half over the 90 degree point.
-                        imageTop = (centerY - (scaledHeight / 2));
+                        imageTop = (centerY - (scaledHeight / 2)) ;
 
                         // Again get the angle in the center of the segment and add it to the rotation angle.
                         // this time we need to add 270 to that to the segment is rendered the correct place.

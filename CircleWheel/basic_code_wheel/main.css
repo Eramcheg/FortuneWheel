@@ -46,6 +46,7 @@
 }
 body
 {
+
     font-family: arial;
     align-items: center;
     justify-content: center;
@@ -54,11 +55,11 @@ body
 /* Sets the background image for the wheel */
 .arrow{
     position: relative;
-    top:-33.7%;
-    left:18.77%;
+
     align-items:center;
     justify-content: center;
-    transform: translateX(-100%);
+    display: flex;
+    transform: translateY(+23%);
     color:#000;
 }
 
@@ -71,19 +72,24 @@ body{
     padding:0;
     background-color: #9ed3e7;
     display:flex;
+    top:-10%;
     align-items:center;
     justify-content: center;
     height:100vh;
     overflow:hidden;
 }
-
+.button{
+    transform: translateY(-30px);
+}
 /* Do some css reset on selected elements */
 h1, p
 {
     margin: 0;
 
 }
-
+.h11{
+    transform: translateY(+90%);
+}
 
 
 div.html5_logo
