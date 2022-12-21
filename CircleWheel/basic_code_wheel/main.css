@@ -1,21 +1,21 @@
 /* CSS */
 .button {
-    transform: translateY(-30px);
-    background-color: #EA4C89;
+    transform: translateY(-200%);
+    /*background-color: #EA4C89;*/
     border-radius: 8px;
     border-style: none;
     box-sizing: border-box;
-    color: #FFFFFF;
+    /*color: #FFFFFF;*/
     cursor: pointer;
-    display: inline-block;
-    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 20px;
-    font-weight: 500;
-    height: 40px;
-    line-height: 20px;
-    list-style: none;
+    /*display: inline-block;*/
+    /*font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+    /*font-size: 20px;*/
+    /*font-weight: 500;*/
+    /*height: 40px;*/
+    /*line-height: 20px;*/
+    /*list-style: none;*/
     margin: 0;
-    width: 100px;
+    /*width: 100px;*/
     outline: none;
     padding: 10px 16px;
     position: relative;
@@ -36,24 +36,23 @@ body
 /* Sets the background image for the wheel */
 .arrow{
     position: relative;
-
+    width: 35px;
+    height: 55px;
     align-items:center;
     justify-content: center;
     display: flex;
-    transform: translateY(+23%);
+    transform: translateY(+113%);
     color:#000;
 }
 
-.arrow::before{
-    content:"\1F817";
-    font-size:50px;
-}
+
 body{
     margin:0;
     padding:0;
     background-color: #9ed3e7;
     display:flex;
     top:-10%;
+    transform: translateY(11px);
     align-items:center;
     justify-content: center;
     height:100vh;
@@ -67,7 +66,7 @@ h1, p
 
 }
 .h11{
-    transform: translateY(+100%);
+    transform: translateY(+200%);
     font-size:25px;
 }
 

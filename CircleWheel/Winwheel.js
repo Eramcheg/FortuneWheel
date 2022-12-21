@@ -89,7 +89,7 @@ function Winwheel(options, drawWheel)
     if (this.canvasId) {
         this.canvas = document.getElementById(this.canvasId);
         this.canvas.width=600
-        this.canvas.height=602
+        this.canvas.height=685
 
         if (this.canvas) {
             // If the centerX and centerY have not been specified in the options then default to center of the canvas
@@ -99,7 +99,7 @@ function Winwheel(options, drawWheel)
             }
 
             if (this.centerY == null) {
-                this.centerY = this.canvas.height / 2 -20;
+                this.centerY = this.canvas.height / 2 -60;
             }
 
             if (this.outerRadius == null) {
@@ -1940,7 +1940,7 @@ Winwheel.prototype.getRandomForSegment = function(segmentNumber)
             if (range > 0) {
                 stopAngle = (startAngle + 1 + Math.floor((Math.random() * range)));
             } else {
-               console.log('Segment size is too small to safely get random angle inside it');
+                console.log('Segment size is too small to safely get random angle inside it');
             }
         } else {
             console.log('Segment ' + segmentNumber + ' undefined');
